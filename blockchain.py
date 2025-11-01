@@ -36,7 +36,7 @@ class Blockchain(object):
             "sender": sender,
             "recipient": recipient,
             "amount": amount})
-        return self.last_bloc["index"] + 1
+        return self.last_block["index"] + 1
 
     @staticmethod
     def hash(block):
